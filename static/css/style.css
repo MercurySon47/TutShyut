@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* .inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  } */
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #222;
+}
+
+.up_menu_all {
+   padding-left: 10%;
+}
+
+.nabar-nav {
+    width: 150px;
+    margin-left: 40%;
+}
+
+.navbar-brand tel {
+    margin:0 auto;
+    width: 150px;
+}
+
+.nabar-nav li {
+    padding-right: 10px;
+}
+
+.nav-link {
+    padding-top: 20px;
+    font-size: 1.1em !important;
+    text-align: center;
+    display: block;
+    padding-left: 1%;
+}
+
+.nav-item a{
+    font-weight: 400;
+}
+
+.whatsapp_icon {
+    font-size: 1.1em !important;
+    text-align: center;
+    display: block;
+    padding-left: 20px;
+    color:forestgreen; 
+    padding-right: 10px
+}
+
+.menu-button {
+    padding: 5px;
+    display: block;
+    width: 160px;
+    margin-top: 17px !important;
+    margin-left: 1%;
+    margin-left: 20px;
+}
+
+.telegram_icon {
+    color:rgb(45, 102, 188); 
+    padding-right: 10px; 
+    padding-bottom: 20px;
+
+}
+
+.content_in_site {
+    text-align: center;
+    margin:0 auto;
+    margin-top: 60px;
+    /* margin-right: 50%; */
+}
+
+/* Услуги */
+
+.card {
+    /* background-image: url('../img/DL/1_back.jpg'); */
+    background-size: auto;
+}
+
+.service {
+    margin-top: -60px;
+    padding-top: 90px;
+    text-align: center; 
+    padding-bottom: 30px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.service_items {
+    position: relative;
+    width: 80%;
+    margin-left:  auto !important;
+    margin-right: auto !important;
+}
+
+.card_service {
+    width: 200px;
+    /* height: 300px; */
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.text_service {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* .card-img-top {
+    height: 2
+} */
