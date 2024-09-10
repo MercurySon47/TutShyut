@@ -47,14 +47,14 @@ body, html {
     font-weight: 400;
 }
 
-/* .navbar-toggler {
+.navbar-toggler {
     width: 30px;
 }
 
 .navbar-toggler-icon {
     width: 20px;
     padding-left: 0;
-} */
+}
 
 .whatsapp_icon {
     font-size: 1.1em !important;
@@ -107,7 +107,7 @@ body, html {
 }
 
 .card_service {
-    width: 170px;
+    width: 150px;
     /* height: 300px; */
     margin: 0 auto;
     margin-bottom: 20px;
@@ -118,6 +118,6 @@ body, html {
     font-size: 0.9rem;
 }
 
-/* .card-img-top {
-    height: 2
-} */
+.btn_service {
+    font-size: 0.8em !important;
+}
