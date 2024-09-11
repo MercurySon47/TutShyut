@@ -109,16 +109,11 @@ body, html {
 
 /* Развернутая карта товара */
 
-/* .image_description {
-    position:relative;
-    top: 0;
-
-} */
-
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .description_image {
@@ -128,4 +123,8 @@ body, html {
 .all_description {
     text-align: left;
     padding-left: 15px;
+}
+
+.accordion {
+    width: 80%;
 }

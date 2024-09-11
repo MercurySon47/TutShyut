@@ -121,7 +121,22 @@ body, html {
     font-size: 0.8em !important;
 }
 
+.container{
+    padding-bottom: 20px;
+}
+
 .all_description {
     text-align: left;
     margin-left: 10px;
+}
+
+.image_description {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+    height: auto;
+}
+
+.akardeon_table {
+    width: 100%;
 }
