@@ -128,3 +128,15 @@ body, html {
 .accordion {
     width: 80%;
 }
+
+.size_content {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
+   
+}
+
+.size_content h4 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
