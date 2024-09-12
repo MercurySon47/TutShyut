@@ -55,13 +55,53 @@
           <li class="nav-item">
             <a href="#about_us" class="nav-link">Обо Мне</a>
           </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-secondary menu-button rounded-pill mx-auto">Личный Кабинет</button>
+          <!-- Кнопка окна регистрации -->
+          <li class="nav-item mx-auto">
+            <button type="button" class="btn btn-secondary menu-button rounded-pill"
+            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Личный Кабинет
+            </button>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <!-- Окно авторизации -->
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" 
+  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered text-center">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 w-100 text-center" id="staticBackdropLabel">Войти</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Форма Авторизации -->
+              <form action="" method="post" class="form-control">
+                <div class="">
+                  <label for="id_name" class="d-block my-1 ">Логин</label>
+                  <input type="text" class="d-block mx-auto input-group w-75" name="name" id="id_name" required />
+                </div>
+                <div class="">
+                  <label for="id_password" class="d-block my-1">Пароль</label>
+                  <input type="password" class="d-block mx-auto mb-4 input-group w-75" name="pasword" id="id_password" required />
+                </div>
+                <div class="mb-2">
+                  <a href="" class="link-secondary mx-1 link-underline-light">Регистрация</a>
+                  <a href="" class="link-secondary mx-1 link-underline-light">Восстановить</a>
+                </div>
+              </form>
+            <!-- Конец формы авторизации -->
+        </div>
+        <div class="modal-footer mx-auto">
+          <button type="button" class="btn btn-secondary">Войти</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Конец окна авторизации -->
   <div class="content_in_site">
     <div>
         <!-- <h3>Тут будет контент сайта </h3> -->
@@ -79,7 +119,7 @@
     <div class="card  rounded-4">
       <img src="static/img/card_img/1.jpg"  class="card-img-top rounded-top-4" alt="...">
       <div class="card-body h-25">
-        <h5 class="card-title text_service">платье</h5>
+        <h5 class="card-title text_service">Платье</h5>
       </div>
       <div class="card-body">
         <a href="product.html" class="btn btn-secondary w-100 btn_service">Подробнее</a>
