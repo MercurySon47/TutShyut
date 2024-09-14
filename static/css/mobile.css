@@ -149,10 +149,15 @@ body, html {
     padding-bottom: 10px;
 }
 
-.modal-dialog {
+.modal_login {
     display: block;
     margin: 0 auto;
     margin-top: 20%;
     text-align: center;
     width: 75%;
+}
+
+.login_button {
+    font-size: 0.8rem;
+    margin-right: 5px;
 }

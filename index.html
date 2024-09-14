@@ -70,7 +70,7 @@
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" 
   data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" 
   aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered text-center">
+    <div class="modal-dialog modal-dialog-centered text-center modal_login">
       <div class="modal-content">
         <div class="modal-header">
           <img src="static/img/logo1.png" alt="" height="40">
@@ -88,11 +88,11 @@
                   <label for="id_password" class="d-block my-1">Пароль</label>
                   <input type="password" class="d-block mx-auto mb-4 input-group w-75" name="pasword" id="id_password" required />
                 </div>
-                <div class="mb-2 w-75 mx-auto">
-                  <button class="btn btn-outline-secondary w-auto d-inline-block p-0 border-0">Регистрация</button>
-                  <button class="btn btn-outline-secondary w-auto d-inline-block p-0 border-0">Восстановить</button>
-                  <!-- <a href="" class="link-secondary mx-1 link-underline-light">Регистрация</a>
-                  <a href="" class="link-secondary mx-1 link-underline-light">Восстановить</a> -->
+                <div class="mb-2 w-75 mx-auto ">
+                  <button class="btn btn-outline-secondary w-auto d-inline-block p-0 border-0 login_button"
+                  data-bs-target="#registration" data-bs-toggle="modal" >
+                  Регистрация</button>
+                  <button class="btn btn-outline-secondary w-auto d-inline-block p-0 border-0 login_button">Восстановить</button>
                 </div>
               </form>
             <!-- Конец формы авторизации -->
@@ -108,6 +108,63 @@
     <!-- <h3>Тут будет контент сайта </h3> -->
     <img class="w-100" src="static/img/promo1.png" alt="">
 </div>
+
+<!-- Окно регистрации -->
+
+<div class="modal fade" id="registration" aria-hidden="true" aria-labelledby="registration_label" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content modal_reg">
+      <div class="modal-header">
+        <img src="static/img/logo1.png" class="" alt="" height="40">
+        <h1 class="modal-title fs-5 mx-auto w-100 text-center" id="registration_label">Регистрация</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" method="post" class="form-control">
+          <div class="">
+            <label for="id_login" class="my-1 ">Придумате Логин *</label>
+            <input type="text" class=" input-group" name="login" id="id_login" required />
+          </div>
+          <div class="">
+            <label for="id_name" class="my-1">Ваше Имя *</label>
+            <input type="text" class=" input-group" name="name" id="id_name" required />
+          </div>
+          <div class="">
+            <label for="id_lastname" class="my-1">Ваша Фамилия</label>
+            <input type="text" class="input-group" name="lastname" id="id_lastname" required />
+          </div>
+          <div class="">
+            <label for="id_email" class="my-1">Ваш Email *</label>
+            <input type="email" class="input-group" name="email" id="id_email" required />
+          </div>
+          <div class="">
+            <label for="id_phone" class="my-1">Ваш номер телефона</label>
+            <input type="tel" class="input-group" name="phone" id="id_phone" required />
+          </div>
+          <div class="">
+            <label for="id_password1" class="my-1">Придумайте пароль *</label>
+            <input type="password" class="input-group" name="pasword1" id="id_password1" required />
+          </div>
+          <div class="">
+            <label for="id_password2" class="my-1">Повторите пароль *</label>
+            <input type="password" class="mb-4 input-group" name="pasword2" id="id_password2" required />
+          </div>
+          <p class="text-danger">* Обязательно для заполнения</p>
+          </div>
+        </form>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-target="#staticBackdrop" data-bs-toggle="modal">Зарегестроваться</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Конец окна регистрации -->
+
+
+
 <!-- блок Каталог -->
 
 <!-- Заголовок -->
