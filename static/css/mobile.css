@@ -51,10 +51,11 @@ body, html {
 }
 
 .menu-button {
-    padding: 5px;
-    width: 130px;
+    padding: 4px;
+    width: 110px;
     margin-top: 17px !important;
     margin-bottom: 10px;
+    font-size: 0.8rem;
 }
 
 .telegram_icon {
@@ -159,5 +160,5 @@ body, html {
 
 .login_button {
     font-size: 0.8rem;
-    margin-right: 5px;
+    margin-right: 0px;
 }
