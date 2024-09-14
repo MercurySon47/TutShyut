@@ -14,11 +14,10 @@
 <body>
   <!-- Блок меню в шапке -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top w-100">
-    <div class="mx-auto up_menu_all container-sm">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top w-100 p-0">
+    <div class="up_menu_all container-sm">
       <a href="index.html" class="navbar-brand"><img src="static/img/logo1.png" height="40"><!-- <img src="..."> --></a>
-      <a href="tel:+79529370985"
-        class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover">7 952 937 0985</a>
+      <a href="tel:+79529370985" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-0-hover">7 952 937 0985</a>
       <a href="https://wa.me/+79529370985" class="whatsapp_icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp"
           viewBox="0 0 16 16">
@@ -74,7 +73,8 @@
     <div class="modal-dialog modal-dialog-centered text-center">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5 w-100 text-center" id="staticBackdropLabel">Войти</h1>
+          <img src="static/img/logo1.png" alt="" height="40">
+          <h1 class="modal-title fs-5 w-50 ps-3 text-center" id="staticBackdropLabel">Войти</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -88,9 +88,11 @@
                   <label for="id_password" class="d-block my-1">Пароль</label>
                   <input type="password" class="d-block mx-auto mb-4 input-group w-75" name="pasword" id="id_password" required />
                 </div>
-                <div class="mb-2">
-                  <a href="" class="link-secondary mx-1 link-underline-light">Регистрация</a>
-                  <a href="" class="link-secondary mx-1 link-underline-light">Восстановить</a>
+                <div class="mb-2 w-75 mx-auto">
+                  <button class="btn btn-outline-secondary w-auto d-inline-block p-0 border-0">Регистрация</button>
+                  <button class="btn btn-outline-secondary w-auto d-inline-block p-0 border-0">Восстановить</button>
+                  <!-- <a href="" class="link-secondary mx-1 link-underline-light">Регистрация</a>
+                  <a href="" class="link-secondary mx-1 link-underline-light">Восстановить</a> -->
                 </div>
               </form>
             <!-- Конец формы авторизации -->
@@ -103,10 +105,8 @@
   </div>
   <!-- Конец окна авторизации -->
   <div class="content_in_site">
-    <div>
-        <!-- <h3>Тут будет контент сайта </h3> -->
-        <img class="w-100" src="static/img/promo1.png" alt="">
-    </div>
+    <!-- <h3>Тут будет контент сайта </h3> -->
+    <img class="w-100" src="static/img/promo1.png" alt="">
 </div>
 <!-- блок Каталог -->
 
