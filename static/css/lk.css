@@ -1,36 +1,36 @@
-.left_menu {
+.user_img {
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+/* .left_menu {
     position: absolute;
     display: block;
-    top: 150px;
+    top: 70px;
     left: 0;
     width: 50px;
     height: auto;
     opacity: 0.5;
     padding: 0;
     transition: width 700ms, opacity 700ms;
-}
+} */
 
+/* 
+.lk_content {
+    position: relative;
+    left: 20%;
+    margin-top: 80px;
+    padding-right: 100px;
+    text-align: center;
+} */
+/* 
 .left_menu:hover {
     width: 150px;
     opacity: 1;
-}
-
-.left_menu p {
-    /* Стили для текста */
-    opacity: 0; /* Начальная непрозрачность */
-    animation: revealText 2s linear forwards; /* Анимация с именем revealText */
-    transform: translateX(-100%); /* Начальное положение текста */
-}
-
-.left_menu:hover p {
-    transform: translateX(0); /* Конечное положение текста при наведении */
-}
-
-@keyframes revealText {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+} */

@@ -51,11 +51,12 @@ body, html {
 }
 
 .menu-button {
-    padding: 4px;
-    width: 110px;
+    padding: 0px;
+    width: 150px;
+    height: 40px;
     margin-top: 17px !important;
     margin-bottom: 10px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .telegram_icon {
@@ -161,4 +162,14 @@ body, html {
 .login_button {
     font-size: 0.8rem;
     margin-right: 0px;
+}
+
+
+.lk_exit_close_btn{
+    width: 194px;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+.lk_exit_close_btn button {
+    width: 80px;
 }

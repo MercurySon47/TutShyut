@@ -41,3 +41,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+function myFile() {
+
+ document.getElementById('file').click();
+}

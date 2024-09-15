@@ -57,8 +57,7 @@ margin-right: auto;
 }
 
 .menu-button {
-    padding: 5px;
-    /* display: block; */
+    padding: 6px;
     width: 130px;
     margin-top: 15px !important;
     margin-left: 10px !important;
@@ -160,7 +159,12 @@ margin-right: auto;
     height: 700px;
 }
 
-/* .modal_reg {
-    height: 1000px;
-} */
-
+.lk_exit_close_btn{
+    width: 173px;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+.lk_exit_close_btn button {
+    width: 70px;
+    padding: 3px;
+}
