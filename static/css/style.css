@@ -72,8 +72,13 @@ margin-right: auto;
 
 .content_in_site {
     margin:0 auto;
+    margin-inline: 3%;
     /* margin-top: 10px; */
     /* margin-right: 50%; */
+}
+
+.content_img {
+    width: 100%;
 }
 
 /* Услуги */
@@ -88,14 +93,15 @@ margin-right: auto;
 }
 
 .service_items {
-    position: relative;
+    justify-content: center;
+    /* position: relative;
     width: 90%;
     margin-left:  auto !important;
-    margin-right: auto !important;
+    margin-right: auto !important; */
 }
 
 .card_service {
-    width: 170px;
+    width: 190px;
     /* height: 300px; */
     /* margin: 0 auto; */
     margin-bottom: 10px;

@@ -67,11 +67,13 @@ body, html {
 }
 
 .content_in_site {
-    text-align: center;
-    margin:0 auto;
-    padding-top: 70px;
+    padding-top: 65px;
     /* margin-top: 1%; */
     /* margin-right: 50%; */
+}
+
+.content_img {
+    width: 100%;
 }
 
 .navbar {
@@ -91,16 +93,14 @@ body, html {
 }
 
 .service_items {
-    position: relative;
-    width: 90%;
-    margin-left:  auto !important;
-    margin-right: auto !important;
+    justify-content: center;
+
 }
 
 .card_service {
     width: 150px;
     /* height: 300px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-bottom: 20px;
 }
 
